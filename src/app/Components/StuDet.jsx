@@ -3,7 +3,7 @@ import { Student } from '../lib/data'
 import ListGr from './ListGr'
 import Image from 'next/image'
 import Link from 'next/link'
-import Stud from '@/../public/Student.jpg'
+import Stud from '@/../public/student.jpg'
 export default function StuDet({ para }) {
     return (
         <div class="bg-white overflow-hidden shadow rounded-lg border">
