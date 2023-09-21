@@ -25,7 +25,7 @@ export default function page() {
   </div>
 </section>
 <p>---------------------------------------------</p>
-<h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font m-2 md:w-2/5">Other's Doubt</h2>
+<h2 class="sm:text-3xl text-2xl text-gray-900 font-medium title-font m-2 md:w-2/5">Already asked Doubts</h2>
 
 <ChipsArray/>
     {
