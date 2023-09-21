@@ -1,8 +1,7 @@
 import React from 'react'
-import Dash from '@/app/Components/Dash'
+import Analyt from '@/app/Components/Analyt'
 export default function page() {
   return (
-    // <Dash/>
-    <h1>Page</h1>
+    <Analyt/>
   )
 }

@@ -2,8 +2,7 @@ import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Chip from '@mui/material/Chip';
 import Paper from '@mui/material/Paper';
-import { Search } from '@mui/icons-material';
-import SearchIcon from '@mui/icons-material/Search';
+
 import TagFacesIcon from '@mui/icons-material/TagFaces';
 import InputBase from '@mui/material/InputBase';
 

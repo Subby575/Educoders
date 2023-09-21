@@ -16,8 +16,8 @@ export default function StuNavbar() {
         <Link href='/Classroom' class="mr-5 hover:text-white">Class</Link>
         
       </nav>
-      <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">S
-    </button>
+      <Link href='/profile'><button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-500 rounded text-base mt-4 md:mt-0">S
+    </button></Link>
 
     </div>
     </header>

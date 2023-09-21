@@ -19,7 +19,7 @@ body {
 main.table {
     width: 100vw;
     height: 90vh;
-    background-color: #fff5;
+    /* background-color: #fff5; */
 
     backdrop-filter: blur(7px);
     box-shadow: 0 .4rem .8rem #0005;
@@ -55,7 +55,7 @@ main.table {
 
 .table__header .input-group:hover {
     width: 45%;
-    background-color: #fff8;
+    /* background-color: #fff8; */
     box-shadow: 0 .1rem .4rem #0002;
 }
 
@@ -127,9 +127,9 @@ thead th {
     text-transform: capitalize;
 }
 
-tbody tr:nth-child(even) {
+/* tbody tr:nth-child(even) {
     background-color: #0000000b;
-}
+} */
 
 tbody tr {
     --delay: .1s;
@@ -141,9 +141,9 @@ tbody tr.hide {
     transform: translateX(100%);
 }
 
-tbody tr:hover {
+/* tbody tr:hover {
     background-color: #fff6 !important;
-}
+} */
 
 tbody tr td,
 tbody tr td p,
