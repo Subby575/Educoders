@@ -2,7 +2,7 @@ export const blog=[
     {
         title:"Cult of Pedagogy",
         desc:"The goal at WeAreTeachers is “to inspire teachers and help them succeed by sharing practical classroom ideas, the best freebies and giveaways, and ",
-        author:"Aksh Das"
+        author:"Aksh Das",
     },
     {
         title:"Teaching with a Mountain View",
