@@ -13,7 +13,7 @@ export default function ExampleClientComponent() {
   return( <>
   {Student.map((e)=>(
     
-    e.studentid==stud?<StuDet para={e}/>:" "
+    e.studentid==stud?<StuDet key={Student.id} para={e}/>:" "
 
   ))
   }
