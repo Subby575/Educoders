@@ -22,7 +22,7 @@ export default function page() {
         {/* <!-- article - start --> */}
         {
       Subject12.map((e)=>(
-        <div class="flex flex-col items-center overflow-hidden rounded-lg border md:flex-row">
+        <div key={e.id} class="flex flex-col items-center overflow-hidden rounded-lg border md:flex-row">
         <p class="group relative block h-48 w-full shrink-0 self-start overflow-hidden bg-gray-100 md:h-full md:w-32 lg:w-48">
           <Image src={Book} loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </p>
@@ -63,7 +63,7 @@ export default function page() {
         {/* <!-- article - start --> */}
         {
       Subject10.map((e)=>(
-        <div class="flex flex-col items-center overflow-hidden rounded-lg border md:flex-row">
+        <div key={e.id} class="flex flex-col items-center overflow-hidden rounded-lg border md:flex-row">
         <p class="group relative block h-48 w-full shrink-0 self-start overflow-hidden bg-gray-100 md:h-full md:w-32 lg:w-48">
           <Image src={Book} loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </p>
