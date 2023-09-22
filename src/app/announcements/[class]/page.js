@@ -7,7 +7,7 @@ export default function page() {
   return (
     <>
     <Navigate/>
-   // <Ann params={announce}/>
+    <Ann params={announce}/>
     <Float/>
     </>
   )
