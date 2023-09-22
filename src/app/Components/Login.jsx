@@ -35,6 +35,7 @@ export default function Login({para,path}) {
             </div>
 
             <input id="email" type="email" name="email" class="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400" placeholder="E-Mail Address" />
+            <input id="email" type="email" name="number2" class="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400" placeholder="Guardian's Mobile Number" />
           </div>
         </div>
         <div class="flex flex-col mb-6">
@@ -83,6 +84,7 @@ export default function Login({para,path}) {
       </a>
     </div>
   </div>
+
 </div>
 
 </>
