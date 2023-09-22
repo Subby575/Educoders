@@ -6,6 +6,7 @@ import Notes from "@/../public/book.jpg"
 import Doubts from "@/../public/doubts.jpg"
 import Classroom from "@/../public/class1.jpg"
 import Blogspace from "@/../public/Blog.jpg"
+import Cody from '@/../public/Cody.jpg'
 export default function Home() {
   return (
     <>
@@ -170,24 +171,26 @@ export default function Home() {
 {/*<!-- call to action - start -->*/}
 <div class="bg-white py-6 sm:py-8 lg:py-12">
   <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-    <div class="flex flex-col overflow-hidden rounded-lg bg-gray-200 sm:flex-row md:h-80">
-      {/*<!-- image - start -->*/}
-      <div class="order-first h-48 w-full bg-gray-300 sm:order-none sm:h-auto sm:w-1/2 lg:w-2/5">
-        <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&q=75&fit=crop&w=1000" loading="lazy" alt="Photo by Andras Vas" class="h-full w-full object-cover object-center" />
-      </div>
-      {/*<!-- image - end -->*/}
+    <div class="flex flex-col overflow-hidden rounded-lg bg-gray-900 sm:flex-row md:h-80">
+      {/* <!-- content - start --> */}
+      <div class="flex w-full flex-col p-4 sm:w-1/2 sm:p-8 lg:w-2/5">
+        <h2 class="mb-2 text-xl font-bold text-white md:text-2xl lg:text-4xl">Cody<br />Your Study Companion</h2>
 
-      {/*<!-- content - start -->*/}
-      <div class="flex w-full flex-col p-4 sm:w-1/2 sm:p-8 lg:w-3/5">
-        <h2 class="mb-4 text-xl font-bold text-gray-800 md:text-2xl lg:text-4xl">Help center</h2>
+        <p class="mb-8 max-w-md text-gray-400"> Imagine having a knowledgeable, friendly, and always-available study buddy right at your fingertips. Our Cody is here to make your learning journey smoother, more efficient, and tailored just for you.
 
-        <p class="mb-8 max-w-md text-gray-600">Need any kind of help Or Stuck Somewhere? Don't bother just ask Us! </p>
+</p>
 
         <div class="mt-auto">
-          <a href="#" class="inline-block rounded-lg bg-white px-8 py-3 text-center text-sm font-semibold text-gray-800 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:text-base">Contact support</a>
+          <Link href="https://codychatbot.netlify.app/" class="inline-block rounded-lg bg-white px-8 py-3 text-center text-sm font-semibold text-gray-800 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:text-base">Talk now</Link>
         </div>
       </div>
-      {/*<!-- content - end -->*/}
+      {/* <!-- content - end --> */}
+
+      {/* <!-- image - start --> */}
+      <div class="order-first h-48 w-full bg-gray-700 sm:order-none sm:h-auto sm:w-1/2 lg:w-3/5">
+        <Image src={Cody} loading="lazy" alt="Photo by Dom Hill" class="h-full w-full object-cover object-center" />
+      </div>
+      {/* <!-- image - end --> */}
     </div>
   </div>
 </div>
