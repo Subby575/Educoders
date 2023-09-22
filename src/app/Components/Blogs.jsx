@@ -11,7 +11,7 @@ export default function Blogs() {
 
       {
         blog.map((e) => (
-          <div class="bg-white py-6 sm:py-8 lg:py-12">
+          <div key={e.author}  class="bg-white py-6 sm:py-8 lg:py-12">
           <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
             <div class="flex flex-col overflow-hidden rounded-lg bg-gray-200 sm:flex-row md:h-80">
               {/* <!-- image - start --> */}
