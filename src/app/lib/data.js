@@ -59,6 +59,7 @@ export const Student = [
     level: 700,
     task: 6,
     progress: 4,
+    asstask:"None"
   },
   {
     name: "Riya Singh",
@@ -81,6 +82,7 @@ export const Student = [
     level: 610,
     task: 10,
     progress: 7,
+    asstask:"1.Physics Numericals"
   },
   {
     name: "Ritesh Sharma",
@@ -93,6 +95,7 @@ export const Student = [
     level: 636,
     task: 6,
     progress: 2,
+    asstask:"None"
   },
   {
     name: "Anurag Gupta",
@@ -112,6 +115,7 @@ export const Student = [
     level: 505,
     task: 8,
     progress: 5,
+    asstask:"1.Math Assignment"
   },
   {
     name: "Amrit Kashyap",
@@ -133,6 +137,7 @@ export const Student = [
     level: 499,
     task: 8,
     progress: 4,
+    asstask:"None"
   },
   {
     name: "Priyanshu Yadav",
@@ -156,6 +161,7 @@ export const Student = [
     level: 389,
     task: 10,
     progress: 5,
+    asstask:"None"
   },
   {
     name: "Sweety Bhatt",
@@ -176,6 +182,7 @@ export const Student = [
     level: 268,
     task: 7,
     progress: 2,
+    asstask:"None"
   },
   {
     name: "Md. Aslam",
@@ -200,5 +207,6 @@ export const Student = [
     level: 140,
     task: 12,
     progress: 2,
+    asstask:"None"
   },
 ];

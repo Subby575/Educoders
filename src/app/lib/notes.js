@@ -6,7 +6,8 @@ export const Pnotes=[
     },
     {
         chap:"Waves",
-        link:"https://drive.google.com/file/d/1boODSw6mTbJtj4iOtQwAwnSEd2orSn_R/view?usp=sharing"
+        link:"https://drive.google.com/file/d/1boODSw6mTbJtj4iOtQwAwnSEd2orSn_R/view?usp=sharing",
+        ta:""
     },
     {
         chap:"Oscialltions",
@@ -15,7 +16,8 @@ export const Pnotes=[
     },
     {
         chap:"Scalar & Vector",
-        link:"https://drive.google.com/file/d/1_qhWfiFciTvN3hXhA9NxFGDF8llSYbrC/view?usp=sharing"
+        link:"https://drive.google.com/file/d/1_qhWfiFciTvN3hXhA9NxFGDF8llSYbrC/view?usp=sharing",
+        ta:""
     },
 ]
 export const notes=[
@@ -31,7 +33,7 @@ export const notes=[
                 link:"https://drive.google.com/file/d/1boODSw6mTbJtj4iOtQwAwnSEd2orSn_R/view?usp=sharing"
             },
             {
-                chap:"Oscialltions",
+                chap:"Oscillations",
                 link:"https://drive.google.com/file/d/158mFRGaDUyIyjINyOIBwU_miCjKR4-s7/view?usp=sharing"
             },
             {
