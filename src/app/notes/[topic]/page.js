@@ -9,6 +9,7 @@ import { usePathname } from 'next/navigation'
 export default function Topic({params}) {
   const pathname = usePathname()
   const stud=pathname.substring(7)
+  console.log(params);
 //   let origin ="";
 //  for(let i=0;i<stud.length;i++){
 //     if(stud[i]=="%"){
@@ -24,9 +25,7 @@ let origin=stud.replace("%20"," ");
   return( <>
 
 <Bcrumb params={origin}/>
-{
-  
-}
-<NotesList params={origin}/>
+
+<NotesList key={params.topic} params={origin}/>
   </>
 )}

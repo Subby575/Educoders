@@ -1,30 +1,36 @@
 export const Subject12=[
     {
       subject:"Chemistry",
-      class:"12"
+      class:"12",
+      id:101
     },
     {
       subject:"Physics",
-      class:"12"
+      class:"12",
+      id:105
     },
     {
       subject:"Mathematics",
-      class:"12"
+      class:"12",
+      id:109
     },
   
   ]
 export const Subject10=[
     {
       subject:"Chemistry",
-      class:"10"
+      class:"10",
+      id:1090
     },
     {
       subject:"Physics",
-      class:"10"
+      class:"10",
+      id:1087
     },
     {
       subject:"Mathematics",
-      class:"10"
+      class:"10",
+      id:1067
     },
   
   ]

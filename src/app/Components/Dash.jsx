@@ -130,7 +130,7 @@ export default function Dash() {
                       <span className="absolute -inset-0.5" />
                       <span className="sr-only">Open main menu</span>
                       {open ? (
-                        <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+                        <p className="block h-6 w-6" aria-hidden="true" >X</p>
                       ) : (" "
                         // <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
                       )}
