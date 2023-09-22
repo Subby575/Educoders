@@ -7,6 +7,7 @@ import Doubts from "@/../public/doubts.jpg"
 import Classroom from "@/../public/class1.jpg"
 import Blogspace from "@/../public/Blog.jpg"
 import Cody from '@/../public/Cody.jpg'
+import Model from './Model'
 export default function Home() {
   return (
     <>
@@ -198,23 +199,23 @@ export default function Home() {
 
 {/*<!-- footer - start -->*/}
 <footer class="bg-white">
-  <div class="bg-indigo-500 py-6">
-    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+  {/* <div class="bg-indigo-500 py-6"> */}
+    {/* <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
       <div class="flex flex-col items-center justify-between gap-2 md:flex-row">
         <div class="mb-3 text-center md:mb-0 md:text-left">
           <span class="font-bold uppercase tracking-widest text-gray-100">Newsletter</span>
           <p class="text-indigo-200">Subscribe to our newsletter</p>
-        </div>
+        </div> */}
 
-        <form class="flex w-full gap-2 md:max-w-md">
+        {/* <form class="flex w-full gap-2 md:max-w-md">
           <input placeholder="Email" class="w-full flex-1 rounded border border-white bg-indigo-400 px-3 py-2 text-white placeholder-indigo-100 outline-none ring-indigo-300 transition duration-100 focus:ring" />
 
           <button class="inline-block rounded bg-white px-8 py-2 text-center text-sm font-semibold text-indigo-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:text-indigo-600 md:text-base">Send</button>
         </form>
-      </div>
-    </div>
-  </div>
-
+      </div> */}
+    {/* </div> */}
+  {/* </div> */}
+        <Model/>
   <div class="pt-12 lg:pt-16">
     <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
       <div class="mb-16 grid grid-cols-2 gap-12 md:grid-cols-4 lg:grid-cols-6 lg:gap-8">
