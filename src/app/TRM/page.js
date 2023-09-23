@@ -18,7 +18,7 @@ export default function page() {
 
       {/* <!-- content - start --> */}
       <div class="flex w-full flex-col p-4 sm:w-1/2 sm:p-8 lg:w-3/5">
-        <h2 class="mb-4 text-xl font-bold text-gray-800 md:text-2xl lg:text-4xl">TRM Model</h2>
+        <h2 class="mb-4 text-xl font-bold text-gray-800 md:text-2xl lg:text-4xl">SDP Model</h2>
 
         <p class="mb-8 max-w-md text-gray-600">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text.</p>
 

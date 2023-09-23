@@ -25,7 +25,7 @@ export default function ModalShow3() {
 
   return (
     <div>
-      <Button onClick={handleOpen}>Student Performance</Button>
+      <Button onClick={handleOpen}>Group</Button>
       <Modal 
         open={open}
         onClose={handleClose}

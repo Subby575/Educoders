@@ -8,7 +8,7 @@ export default function Model() {
     <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="text-center mb-20">
-        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Introducing TRM Model</h1>
+        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Introducing SDP Model</h1>
         <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto"></p>
       </div>
       <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
@@ -18,7 +18,7 @@ export default function Model() {
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
-            <span class="title-font font-medium">Authentic Cliche Forage</span>
+            <span class="title-font font-medium">Personalized Development</span>
           </div>
         </div>
         <div class="p-2 sm:w-1/2 w-full">
@@ -27,7 +27,7 @@ export default function Model() {
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
-            <span class="title-font font-medium">Kinfolk Chips Snackwave</span>
+            <span class="title-font font-medium">Group Based Learning</span>
           </div>
         </div>
         <div class="p-2 sm:w-1/2 w-full">
@@ -36,7 +36,7 @@ export default function Model() {
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
-            <span class="title-font font-medium">Coloring Book Ethical</span>
+            <span class="title-font font-medium">Student Mentoring</span>
           </div>
         </div>
         <div class="p-2 sm:w-1/2 w-full">
@@ -45,7 +45,7 @@ export default function Model() {
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
-            <span class="title-font font-medium">Typewriter Polaroid Cray</span>
+            <span class="title-font font-medium">Adaptive Learning</span>
           </div>
         </div>
         <div class="p-2 sm:w-1/2 w-full">
@@ -54,7 +54,7 @@ export default function Model() {
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
-            <span class="title-font font-medium">Pack Truffaut Blue</span>
+            <span class="title-font font-medium">Peer Collaboration</span>
           </div>
         </div>
         <div class="p-2 sm:w-1/2 w-full">
@@ -63,11 +63,11 @@ export default function Model() {
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
-            <span class="title-font font-medium">The Catcher In The Rye</span>
+            <span class="title-font font-medium">Data Driven Teaching</span>
           </div>
         </div>
       </div>
-      <Link href='/TRM'><button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Use</button></Link>
+      <Link href='/TRM'><button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Check Now</button></Link>
     </div>
   </section>
   </>
