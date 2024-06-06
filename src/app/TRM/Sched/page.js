@@ -35,7 +35,7 @@ export default function page() {
 
     {
         week.map((e)=>(
-            <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+            <div key={e} class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
             <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
               <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
             </div>

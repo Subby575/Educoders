@@ -15,7 +15,7 @@ export default function ExampleClientComponent() {
   return( <>
   {Teacher.map((e)=>(
     
-    e.id==stud?<Tea param={e} />:" "
+    e.id==stud?<Tea key={e} param={e} />:" "
 
   ))
   }

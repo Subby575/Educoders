@@ -42,7 +42,7 @@ export default function ModalShow1() {
             {
                 Student.map((e)=>(
                     
-                    <li className='bg-green-300'>{e.level>500?e.name:''}</li>
+                    <li key={e} className='bg-green-300'>{e.level>500?e.name:''}</li>
                     
                 ))
 
@@ -61,7 +61,7 @@ export default function ModalShow1() {
             {
                 Student.map((e)=>(
                     
-                    <li className='bg-red-300'>{e.level<500?e.name:''}</li>
+                    <li key={e} className='bg-red-300'>{e.level<500?e.name:''}</li>
                     
                 ))
 

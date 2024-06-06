@@ -106,7 +106,7 @@ function Drawer({params}) {
           {
               (e.astart<=h && e.aend>=h)?
             //   <TeacherList params={e} />
-            <TeacherList para={e} />
+            <TeacherList key={e} para={e} />
             // console.log(e)
               :''
         }
