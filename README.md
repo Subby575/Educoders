@@ -5,7 +5,7 @@ A Platform for online learning, Offering Wide range of Study materials, Test and
 
 To get started with our platform, follow these steps:
 
-1. Visit [website-url.com](https://website-url.com)
+1. Visit [website-url.com]([https://website-url.com](https://educoders.vercel.app/))
 2. Sign up for an account or log in if you already have one.
 3. Browse the Study material, Courses and enroll in the ones that interest you.
 4. Begin your learning journey!
