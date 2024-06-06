@@ -111,7 +111,7 @@ function Drawer({params}) {
               :''
         }
            </> 
-          : <h2 className='hidden'>`${k++}`</h2>
+          : <h2 key={e} className='hidden'>`${k++}`</h2>
       )}
          {
             k==15?<h1>No Teacher Found</h1>
